@@ -1,4 +1,9 @@
 %global __jar_repack 0
+%global _use_internal_dependency_generator 1
+%global __find_requires %{nil}
+%global __find_provides %{nil}
+%global _enable_debug_packages 0
+%global debug_package %{nil}
 
 Name:		ovirt-engine-wildfly
 Version:	@VERSION@
