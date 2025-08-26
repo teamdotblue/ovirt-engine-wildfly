@@ -9,6 +9,7 @@ BuildArch:	noarch
 Source0:	README.md
 
 # Required to assemble artifacts
+BuildRequires: java-21-openjdk-devel
 BuildRequires: rpmdevtools
 
 Requires:	ovirt-engine-wildfly = %{version}-%{release}

@@ -11,6 +11,8 @@ Source:		@SRC@
 
 BuildRequires:	unzip
 BuildRequires:	chrpath
+BuildRequires:  java-21-openjdk-devel
+BuildRequires:  javapackages-tools
 
 # Prevent breaking packages that require e.g. libapr-1.so
 AutoReqProv:	no
